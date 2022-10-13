@@ -38,4 +38,5 @@ public class MotherBoard {
     public void setForma(String forma){
         this.forma = forma;
     }
+
 }

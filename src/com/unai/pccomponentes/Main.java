@@ -44,5 +44,9 @@ public class Main {
         nvidia.setMarca("RTX4080");
         nvidia.setMemoria("32GB");
 
+        System.out.println(nvidia.getMarca());
+        System.out.println(nvidia.getFabricante());
+        System.out.println(nvidia.getMemoria());
+        System.out.println(nvidia.getId());
     }
 }

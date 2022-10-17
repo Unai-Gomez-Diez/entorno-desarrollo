@@ -38,5 +38,11 @@ public class Main {
         System.out.println(gigabit.getForma());
         System.out.println(gigabit.getId());
 
+        GraphicCard nvidia = new GraphicCard();
+        nvidia.setId(1);
+        nvidia.setFabricante("Nvidia");
+        nvidia.setMarca("RTX4080");
+        nvidia.setMemoria("32GB");
+
     }
 }

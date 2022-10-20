@@ -139,5 +139,15 @@ public class Main {
         System.out.println(msi.getHz());
         System.out.println(msi.getId());
 
+        Keyboard logitech = new Keyboard();
+        logitech.setId(1);
+        logitech.setFabricante("MSI");
+        logitech.setMarca("Optix");
+        logitech.setTeclas("165Hz");
+
+        System.out.println(logitech.getMarca());
+        System.out.println(logitech.getFabricante());
+        System.out.println(logitech.getTeclas());
+        System.out.println(logitech.getId());
     }
 }

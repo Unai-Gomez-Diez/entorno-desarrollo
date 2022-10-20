@@ -152,13 +152,13 @@ public class Main {
 
         Mouse forgeon = new Mouse();
         forgeon.setId(1);
-        forgeon.setFabricante("Logitech");
-        forgeon.setMarca("G413");
-        forgeon.setTpi("105 teclas");
+        forgeon.setFabricante("Forgeon");
+        forgeon.setMarca("Perdition");
+        forgeon.setDpi("5000dpi");
 
         System.out.println(forgeon.getMarca());
         System.out.println(forgeon.getFabricante());
-        System.out.println(forgeon.getTpi());
+        System.out.println(forgeon.getDpi());
         System.out.println(forgeon.getId());
     }
 }

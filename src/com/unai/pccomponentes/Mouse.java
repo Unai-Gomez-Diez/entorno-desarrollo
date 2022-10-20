@@ -6,7 +6,7 @@ public class Mouse {
     private Integer id;
     private String fabricante;
     private String marca;
-    private String tpi;
+    private String dpi;
 
     public Integer getId(){
         return id;
@@ -32,12 +32,12 @@ public class Mouse {
         this.marca=marca;
     }
 
-    public String getTpi(){
-        return tpi;
+    public String getDpi(){
+        return dpi;
     }
 
-    public void setTpi(String tpi){
-        this.tpi=tpi;
+    public void setDpi(String dpi){
+        this.dpi=dpi;
     }
 
 }

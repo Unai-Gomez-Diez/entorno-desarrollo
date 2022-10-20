@@ -149,5 +149,16 @@ public class Main {
         System.out.println(logitech.getFabricante());
         System.out.println(logitech.getTeclas());
         System.out.println(logitech.getId());
+
+        Mouse forgeon = new Mouse();
+        forgeon.setId(1);
+        forgeon.setFabricante("Logitech");
+        forgeon.setMarca("G413");
+        forgeon.setTpi("105 teclas");
+
+        System.out.println(forgeon.getMarca());
+        System.out.println(forgeon.getFabricante());
+        System.out.println(forgeon.getTpi());
+        System.out.println(forgeon.getId());
     }
 }

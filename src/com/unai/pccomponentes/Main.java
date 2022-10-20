@@ -81,5 +81,17 @@ public class Main {
         System.out.println(zalman.getFabricante());
         System.out.println(zalman.getRpm());
         System.out.println(zalman.getId());
+
+        Harddisk toshiba = new Harddisk();
+        toshiba.setId(1);
+        toshiba.setFabricante("Zalman");
+        toshiba.setMarca("CNPS9900");
+        toshiba.setCapacidad("1400rpm");
+
+        System.out.println(toshiba.getMarca());
+        System.out.println(toshiba.getFabricante());
+        System.out.println(toshiba.getCapacidad());
+        System.out.println(toshiba.getId());
+
     }
 }

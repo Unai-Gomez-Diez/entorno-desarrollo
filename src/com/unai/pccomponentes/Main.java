@@ -59,5 +59,16 @@ public class Main {
         System.out.println(corsair.getFabricante());
         System.out.println(corsair.getTipo());
         System.out.println(corsair.getId());
+
+        BOX tempest = new BOX();
+        tempest.setId(1);
+        tempest.setFabricante("Tempest");
+        tempest.setMarca("Start torre");
+       tempest.setPlaca_soportada("ATX");
+
+        System.out.println(tempest.getMarca());
+        System.out.println(tempest.getFabricante());
+        System.out.println(tempest.getPlaca_soportada());
+        System.out.println(tempest.getId());
     }
 }

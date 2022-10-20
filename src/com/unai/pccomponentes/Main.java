@@ -154,11 +154,22 @@ public class Main {
         forgeon.setId(1);
         forgeon.setFabricante("Forgeon");
         forgeon.setMarca("Perdition");
-        forgeon.setDpi("5000dpi");
+        forgeon.setDpi("5000 dpi");
 
         System.out.println(forgeon.getMarca());
         System.out.println(forgeon.getFabricante());
         System.out.println(forgeon.getDpi());
         System.out.println(forgeon.getId());
+
+        Speakers hp = new Speakers();
+        hp.setId(1);
+        hp.setFabricante("HP");
+        hp.setMarca("X1000");
+        hp.setCanales_salida("2.1");
+
+        System.out.println(hp.getMarca());
+        System.out.println(hp.getFabricante());
+        System.out.println(hp.getCanales_salida());
+        System.out.println(hp.getId());
     }
 }

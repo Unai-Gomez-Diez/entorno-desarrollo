@@ -70,5 +70,16 @@ public class Main {
         System.out.println(tempest.getFabricante());
         System.out.println(tempest.getPlaca_soportada());
         System.out.println(tempest.getId());
+
+        CPUFan zalman = new CPUFan();
+        zalman.setId(1);
+        zalman.setFabricante("Zalman");
+        zalman.setMarca("CNPS9900");
+        zalman.setRpm("1400rpm");
+
+        System.out.println(zalman.getMarca());
+        System.out.println(zalman.getFabricante());
+        System.out.println(zalman.getRpm());
+        System.out.println(zalman.getId());
     }
 }

@@ -84,9 +84,9 @@ public class Main {
 
         Harddisk toshiba = new Harddisk();
         toshiba.setId(1);
-        toshiba.setFabricante("Zalman");
-        toshiba.setMarca("CNPS9900");
-        toshiba.setCapacidad("1400rpm");
+        toshiba.setFabricante("toshiba");
+        toshiba.setMarca("MG Series");
+        toshiba.setCapacidad("16TB");
 
         System.out.println(toshiba.getMarca());
         System.out.println(toshiba.getFabricante());

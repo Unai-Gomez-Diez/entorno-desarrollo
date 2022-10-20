@@ -141,9 +141,9 @@ public class Main {
 
         Keyboard logitech = new Keyboard();
         logitech.setId(1);
-        logitech.setFabricante("MSI");
-        logitech.setMarca("Optix");
-        logitech.setTeclas("165Hz");
+        logitech.setFabricante("Logitech");
+        logitech.setMarca("G413");
+        logitech.setTeclas("105 teclas");
 
         System.out.println(logitech.getMarca());
         System.out.println(logitech.getFabricante());

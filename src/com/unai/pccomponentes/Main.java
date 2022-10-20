@@ -1,5 +1,7 @@
 package com.unai.pccomponentes;
 
+import java.io.PipedWriter;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -92,6 +94,17 @@ public class Main {
         System.out.println(toshiba.getFabricante());
         System.out.println(toshiba.getCapacidad());
         System.out.println(toshiba.getId());
+
+        Powersupply nfortec = new Powersupply();
+        nfortec.setId(1);
+        nfortec.setFabricante("Nfortec");
+        nfortec.setMarca("Vanth");
+        nfortec.setPotencia("650W");
+
+        System.out.println(nfortec.getMarca());
+        System.out.println(nfortec.getFabricante());
+        System.out.println(nfortec.getPotencia());
+        System.out.println(nfortec.getId());
 
     }
 }

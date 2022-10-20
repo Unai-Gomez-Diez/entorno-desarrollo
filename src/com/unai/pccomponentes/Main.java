@@ -117,5 +117,16 @@ public class Main {
         System.out.println(asus.getCalidad_sonido());
         System.out.println(asus.getId());
 
+        DVDwriter asus = new DVDwriter();
+        asus.setId(1);
+        asus.setFabricante("Asus");
+        asus.setMarca("DRW24");
+        asus.setVelocidad_escritura("16x");
+
+        System.out.println(asus.getMarca());
+        System.out.println(asus.getFabricante());
+        System.out.println(asus.getVelocidad_escritura());
+        System.out.println(asus.getId());
+
     }
 }

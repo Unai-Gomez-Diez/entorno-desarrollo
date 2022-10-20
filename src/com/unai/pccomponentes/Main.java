@@ -106,5 +106,16 @@ public class Main {
         System.out.println(nfortec.getPotencia());
         System.out.println(nfortec.getId());
 
+        SoundCard asus = new SoundCard();
+        asus.setId(1);
+        asus.setFabricante("Asus");
+        asus.setMarca("Sonar SE Interno");
+        asus.setCalidad_sonido("116dB");
+
+        System.out.println(asus.getMarca());
+        System.out.println(asus.getFabricante());
+        System.out.println(asus.getCalidad_sonido());
+        System.out.println(asus.getId());
+
     }
 }

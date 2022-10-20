@@ -128,5 +128,16 @@ public class Main {
         System.out.println(lg.getVelocidad_escritura());
         System.out.println(lg.getId());
 
+        Screen msi = new Screen();
+        msi.setId(1);
+        msi.setFabricante("MSI");
+        msi.setMarca("Optix");
+        msi.setHz("165Hz");
+
+        System.out.println(msi.getMarca());
+        System.out.println(msi.getFabricante());
+        System.out.println(msi.getHz());
+        System.out.println(msi.getId());
+
     }
 }

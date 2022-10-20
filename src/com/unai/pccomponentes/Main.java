@@ -48,5 +48,16 @@ public class Main {
         System.out.println(nvidia.getFabricante());
         System.out.println(nvidia.getMemoria());
         System.out.println(nvidia.getId());
+
+       RAM corsair = new RAM();
+        corsair.setId(1);
+        corsair.setFabricante("Corsair");
+        corsair.setMarca("DDR4 3200");
+        corsair.setTipo("DDR4");
+
+        System.out.println(corsair.getMarca());
+        System.out.println(corsair.getFabricante());
+        System.out.println(corsair.getTipo());
+        System.out.println(corsair.getId());
     }
 }
